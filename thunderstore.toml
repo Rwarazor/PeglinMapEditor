@@ -1,0 +1,27 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "rwarazor"
+name = "PeglinMapEditor"
+versionNumber = "0.0.0"
+description = "Change map nodes to your liking!"
+websiteUrl = "https://github.com/...."
+containsNsfwContent = false
+
+[package.dependencies]
+BepInEx-BepInExPack_Peglin = "5.4.2100"
+
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./dist"
+source = "./build"
+target = ""
+
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["peglin"]
+categories = []
